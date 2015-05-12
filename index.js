@@ -6,6 +6,7 @@ var spawn = require('child_process').spawn
 var name = process.argv[2]
 
 exec('npm view ' + name, function (err, res) {
+  if (err) throw err
   var match = res.match(re)
   if (match) {
     var url = match[2].replace(/\/issues$/, '')
