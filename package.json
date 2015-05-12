@@ -1,0 +1,22 @@
+{
+  "name": "showme",
+  "version": "1.0.0",
+  "description": "show me the code!",
+  "main": "index.js",
+  "bin": {
+    "showme": "index.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyx990803/showme.git"
+  },
+  "author": "Evan You",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yyx990803/showme/issues"
+  },
+  "homepage": "https://github.com/yyx990803/showme#readme"
+}
